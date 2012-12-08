@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob("{test,spec,features}/**/*")
 
   s.add_runtime_dependency("builder")
-  s.add_runtime_dependency("girl_friday")
 
   s.add_development_dependency("actionpack",    "~> 2.3.8")
   s.add_development_dependency("activerecord",  "~> 2.3.8")
@@ -23,6 +22,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency("bourne",          ">= 1.0")
   s.add_development_dependency("cucumber",     "~> 0.10.6")
   s.add_development_dependency("fakeweb",       "~> 1.3.0")
+  s.add_development_dependency("girl_friday")
   s.add_development_dependency("nokogiri",    "~> 1.4.3.1")
   s.add_development_dependency("rspec",         "~> 2.6.0")
   s.add_development_dependency("sham_rack",     "~> 1.3.0")
