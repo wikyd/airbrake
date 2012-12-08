@@ -1,4 +1,4 @@
-require "girl_friday"
+#require "girl_friday"
 require 'net/http'
 require 'net/https'
 require 'rubygems'
